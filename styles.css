@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'GameFont';
+    src: url('assets/fonts/font.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'GameFont', Arial, sans-serif;
+}
+
+/* Any other UI elements outside the canvas */
+.ui-element {
+    font-family: 'GameFont', Arial, sans-serif;
+}
+
+#gameCanvas {
+    border: 2px solid #000;
+}
